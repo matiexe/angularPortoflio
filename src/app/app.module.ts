@@ -8,8 +8,9 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ProdcutComponent } from './pages/prodcut/prodcut.component';
+import { ProductComponent } from './pages/product/product.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ProdcutComponent,
+    ProductComponent,
+    SearchComponent,
     
   ],
   imports: [
